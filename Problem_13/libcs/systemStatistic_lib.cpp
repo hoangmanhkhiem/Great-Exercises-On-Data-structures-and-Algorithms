@@ -53,9 +53,11 @@ void systemStatistics::tinhTien() {
                     factor_location = 4;
                 }
                 int minute = listCalledinFile[j].get_minutes();
+                converttime call_Date_st = converttime(listCalledinFile[j].get_callDate());
+                string thu_may = call_Date_st.convert_date_to_celandar(call_Date_st.get_total_day());
                 if ((listCalledinFile[j].get_start_hour() >= 23 && listCalledinFile[j].get_start_hour() <= 5)
-                    || listCalledinFile[j].get_callDate() == "Saturday" ||
-                    listCalledinFile[j].get_callDate() == "Sunday") {
+                    || thu_may == "Saturday" ||
+                        thu_may == "Sunday") {
                     total_FEE += 770 * minute * factor_location;
                 }
                 else total_FEE += 1100 * minute * factor_location;
