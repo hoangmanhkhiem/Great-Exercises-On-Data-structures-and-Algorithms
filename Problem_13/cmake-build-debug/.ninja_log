@@ -1,0 +1,17 @@
+# ninja log v5
+1	234	7211370565217329	CMakeFiles/BTLCTDL.dir/main.cpp.obj	ef5898eac0e4e79e
+234	304	7211370565887331	BTLCTDL.exe	9994d888234c2dc1
+1	283	7209419742461564	CMakeFiles/BTLCTDL.dir/libcs/customer_lib.cpp.obj	b5e2fd2e4fee4d24
+4	234	7207323466787399	CMakeFiles/BTLCTDL.dir/test.cpp.obj	fff4aa627abbcc25
+8	285	7207354293236982	CMakeFiles/BTLCTDL.dir/Lib/converttime.cpp.obj	cb195f42a1ceaace
+1	72	7212055646156599	build.ninja	ad4b785907e829ee
+5	278	7209419742401566	CMakeFiles/BTLCTDL.dir/libcs/Statistic_lib.cpp.obj	1c1a36c8fe3fbef5
+3	316	7209419742781563	CMakeFiles/BTLCTDL.dir/libcs/infoCall_lib.cpp.obj	fd50cfd61d004b19
+8	351	7209419743131560	CMakeFiles/BTLCTDL.dir/libcs/converttime.cpp.obj	3522f2e55dab6ff1
+5	259	7211347564298060	CMakeFiles/BTLCTDL.dir/libcs/list_statistic_lib.cpp.obj	66c01fdc3a050700
+1	289	7211347564618109	CMakeFiles/BTLCTDL.dir/libcs/list_called_lib.cpp.obj	a53732cee86103ae
+9	289	7211347564608108	CMakeFiles/BTLCTDL.dir/libcs/systemStatistic_lib.cpp.obj	7114bbf7b45e2335
+7	290	7211347564628108	CMakeFiles/BTLCTDL.dir/libcs/list_customer_lib.cpp.obj	7ddf29767be37e4f
+3	42	7211347562137984	CMakeFiles/BTLCTDL.dir/libcs/vector.cpp.obj	508d6e0e61d4bf22
+2	338	7212055692790178	CMakeFiles/BTLCTDL.dir/libcs/converttime.cpp.obj	3522f2e55dab6ff1
+338	436	7212055693737153	BTLCTDL.exe	6cdfe7f3b171b49c
