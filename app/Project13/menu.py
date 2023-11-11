@@ -168,6 +168,6 @@ def open_file_dialog_kq():
         ui.path_ketqua.setText('')
 
 
-if __name__ == '__main__':
+def main():
     run()
     sys.exit(app.exec_())
