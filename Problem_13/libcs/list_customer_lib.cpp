@@ -7,9 +7,6 @@
 #include <sstream>
 #include <iostream>
 
-//Customer_List::Customer_List() {
-//    inputFile();
-//}
 
 void Customer_List::inputFile() {
     ifstream fileIn;
@@ -31,12 +28,6 @@ void Customer_List::inputFile() {
         }
     }
     fileIn.close();
-}
-
-void Customer_List::outPut() {
-    for (int i = 0; i < listCustomer.get_size(); i++) {
-        cout << listCustomer[i].get_Name() << " " << listCustomer[i].get_numberPhone() << endl;
-    }
 }
 
 dynamicArray<Customer> Customer_List::get_list_Customer() {

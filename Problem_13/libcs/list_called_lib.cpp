@@ -40,14 +40,6 @@ void List_Called::inputFile() {
     fileIn.close();
 }
 
-void List_Called::outPut() {
-    for (int i = 0; i < callList.get_size(); i++) {
-        cout << callList[i].get_numberPhone() << " " << callList[i].get_minutes() << " "
-             << callList[i].get_start_time() << " " << callList[i].get_callDate() << " "
-             << callList[i].get_location() << endl;
-    }
-}
-
 dynamicArray<infoCall> List_Called::get_List_Called() {
     return callList;
 }

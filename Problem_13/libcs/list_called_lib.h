@@ -19,7 +19,6 @@ private:
 public:
     List_Called();
     void inputFile();
-    void outPut();
     dynamicArray<infoCall> get_List_Called();
 };
 

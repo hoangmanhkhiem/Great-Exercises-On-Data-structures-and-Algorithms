@@ -16,10 +16,7 @@ class Customer_List {
 private:
     dynamicArray<Customer> listCustomer;
 public:
-
-//    Customer_List();
     void inputFile();
-    void outPut();
     dynamicArray<Customer> get_list_Customer();
 };
 
