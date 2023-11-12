@@ -68,9 +68,7 @@ void systemStatistics::tinhTien() {
 }
 
 void systemStatistics::xuat() {
-    printf("|%-30s|%-15s|%-15s|%-10s|%-10s|%-10s|%-10s|\n", "Full Name", "NumberPhone", "Total_FEE", "number_NH",
-           "number_LC", "number_X", "number_RX");
-    printf("|------------------------------|---------------|---------------|----------|----------|----------|----------|\n");
+    cout << "Complete!";
     _listStatistic.outPut();
 }
 
