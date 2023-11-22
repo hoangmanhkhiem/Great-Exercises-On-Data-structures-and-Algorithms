@@ -3,7 +3,7 @@ rem Your comment here - this line will be ignored during execution
 setlocal
 
 rem Set the path to your Python script
-set "script_path=main.pyw"
+set "script_path=Project13/main.pyw"
 
 rem Try to find the Python interpreter path using PowerShell
 for /f "tokens=* USEBACKQ" %%F IN (`powershell -Command "Get-Command python | ForEach-Object { $_.Source }"`) DO (
