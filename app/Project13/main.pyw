@@ -1,5 +1,5 @@
 import check
 if __name__ == '__main__':
-    check.Checkng()
+    check.Checking()
     import menu
     menu.main()
